@@ -46,7 +46,7 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 GRANT ALL ON SCHEMA public TO postgres;
 ```
 
-Lastly, a user is created that will be used by the python program to write data into the database. Configure the ["databasecredentials.py"](./databasecredentials.py) accordingly!
+Lastly, a user is created that will be used by the python program to write data into the database. Configure the ["databasecredentials.py"](databasecredentials.py) accordingly!
 ```sql
 -- Role: pythonboy
 -- DROP ROLE IF EXISTS pythonboy;
