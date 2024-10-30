@@ -21,6 +21,9 @@ The core tools can be found in ["PubmedParser.py"](PubmedParser.py). However, th
 
 # Credits & Meta
 [![DOI](https://zenodo.org/badge/881090422.svg)](https://doi.org/10.5281/zenodo.14015253)
+
 Author: Alexander Schniedermann
+
 [ORCID](https://orcid.org/0000-0003-2132-7419) | [mastodon](https://fediscience.org/@Aschniedermann)
-The original project started in 2022 as part of my dissertation project.
+
+*The original project started in 2022 as part of my dissertation project.*
