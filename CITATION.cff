@@ -1,0 +1,42 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: PubMedParser
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Alexander
+    family-names: Schniedermann
+    email: schniedermann@dzhw.eu
+    affiliation: >-
+      German Centre for Higher Education Research and
+      Science Studies
+    orcid: 'https://orcid.org/0000-0003-2132-7419'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.14015254
+    description: First indexed version on Zenodo
+repository-code: 'https://github.com/TheMetrifiedMe/pubmedparser'
+abstract: >-
+  PubMed contains over 30 million biomedical publications.
+  These records are highly valuable for bibliometric
+  analysis. Although many records can also be analysed in
+  other bibliometric services, most lack some specific
+  metadata types such as PubMed's document type
+  classification, database related timestamps or MeSH
+  keywords. This package provides a data pipeline to
+  retrieve this metadata from PubMed's bulk download and
+  store it in a PostgreSQL database. This is done in an
+  efficient and resource-friendly way on the client side.
+keywords:
+  - PubMed
+  - bibliometrics
+  - mesh
+  - document type
+license: CC0-1.0
+commit: f0b6ef2e0a284425a0d1e708209b2dd755e0adc9
+version: '1.0'
+date-released: '2024-10-31'
